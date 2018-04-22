@@ -13,6 +13,11 @@ To run the server, please execute the following:
 mvn clean package jetty:run
 ```
 
+To run tests, please execute the following:
+```
+mvn -Dtest=EventUtilsTests test
+```
+
 You can then view the swagger listing here:
 
 ```
@@ -21,3 +26,5 @@ http://localhost:8080/swagger.json
 
 Note that if you have configured the `host` to be something other than localhost, the calls through
 swagger-ui will be directed to that host and not localhost!
+
+The swagger json is a documented format can be viewed as well in [swagger-editor](https://editor.swagger.io)
