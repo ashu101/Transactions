@@ -27,4 +27,4 @@ http://localhost:8080/swagger.json
 Note that if you have configured the `host` to be something other than localhost, the calls through
 swagger-ui will be directed to that host and not localhost!
 
-The swagger json is a documented format can be viewed as well in [swagger-editor](https://editor.swagger.io)
+The swagger json in a documented format can be viewed as well in [swagger-editor](https://editor.swagger.io)
